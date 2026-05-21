@@ -12,11 +12,15 @@ AI writing has patterns. Predictable phrases, structures, rhythms. This skill te
 
 ```
 stop-slop/
-├── SKILL.md              # Core instructions
+├── SKILL.md              # Core instructions (English)
+├── SKILL.es.md           # Core instructions (Spanish)
 ├── references/
-│   ├── phrases.md        # Phrases to remove
-│   ├── structures.md     # Structural patterns to avoid
-│   └── examples.md       # Before/after transformations
+│   ├── phrases.md        # Phrases to remove (English)
+│   ├── phrases.es.md     # Phrases to remove (Spanish)
+│   ├── structures.md     # Structural patterns to avoid (English)
+│   ├── structures.es.md  # Structural patterns to avoid (Spanish)
+│   ├── examples.md       # Before/after transformations (English)
+│   └── examples.es.md    # Before/after transformations (Spanish)
 ├── README.md
 └── LICENSE
 ```
@@ -52,6 +56,15 @@ Rate 1-10 on each dimension:
 | Density | Anything cuttable? |
 
 Below 35/50: revise.
+
+## Versión en castellano
+
+Hay una adaptación al castellano del skill, con frases, estructuras y ejemplos propios del idioma (pasiva refleja, adverbios en -mente, jerga corporativa española, gerundios encadenados, etc.):
+
+- [`SKILL.es.md`](SKILL.es.md) — instrucciones core
+- [`references/phrases.es.md`](references/phrases.es.md) — frases a eliminar
+- [`references/structures.es.md`](references/structures.es.md) — estructuras a evitar
+- [`references/examples.es.md`](references/examples.es.md) — ejemplos antes/después
 
 ## Author
 
